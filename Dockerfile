@@ -4,7 +4,7 @@ LABEL org.opencontainers.image.source="https://github.com/step-security/megalint
       org.opencontainers.image.vendor="StepSecurity" \
       org.opencontainers.image.description="MegaLinter cupcake flavor — StepSecurity maintained"
 
-RUN apt-get update && apt-get install -y --no-install-recommends jq && rm -rf /var/lib/apt/lists/*
+RUN apk add --no-cache jq
 
 COPY stepsecurity-entrypoint.sh /stepsecurity-entrypoint.sh
 RUN chmod +x /stepsecurity-entrypoint.sh
