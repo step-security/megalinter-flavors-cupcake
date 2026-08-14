@@ -13,7 +13,7 @@ MegaLinter for the most commonly used languages
 
 ## Usage
 
-- [GitHub Action](https://megalinter.io/beta/installation/#github-action): **step-security/megalinter-flavors-cupcake@v10**
+- - [GitHub Action](https://github.com/step-security/megalinter-flavors-cupcake): **step-security/megalinter-flavors-cupcake@v10**
 
 - Docker images:
 
