@@ -6,7 +6,7 @@ outputs:
     description: "0 if no source file has been updated, 1 if source files has been updated"
 runs:
   using: "docker"
-  image: "Dockerfile"
+  image: "docker://ghcr.io/step-security/megalinter-flavors-cupcake:v10.0.0@sha256:943737e1f58cbe8517c2d850447c3a2e9b0aae9b8d662212db9aeb8d74f1a9ef" #v10.0.0
 branding:
   icon: "check"
   color: "green"
