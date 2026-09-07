@@ -1,4 +1,4 @@
-FROM ghcr.io/oxsecurity/megalinter-cupcake:v10@sha256:266c8d80f74b3308d71078f9f1e5426c6f012eb71c126eadd69960d5ccb770ed
+FROM ghcr.io/oxsecurity/megalinter-cupcake:v10@sha256:7cce5b9d46564149d451a9752c5c266982f10c231be7df79996f46e3e171d2fc
 
 LABEL org.opencontainers.image.source="https://github.com/step-security/megalinter-flavors-cupcake" \
       org.opencontainers.image.vendor="StepSecurity" \
