@@ -1,0 +1,12 @@
+{
+  "$comment": "Managed automatically when syncing with upstream. Do not edit by hand.",
+  "schema_version": 1,
+  "onboarding_type": "copied",
+  "action_type": "docker",
+  "upstream": {
+    "repository": "oxsecurity/megalinter",
+    "synced_tag": "v10.1.0",
+    "synced_commit": "9949bad031045f366be2467e00e8371a7328a2e2",
+    "archived": false
+  }
+}
